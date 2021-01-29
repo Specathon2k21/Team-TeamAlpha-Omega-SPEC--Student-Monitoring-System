@@ -1,6 +1,6 @@
-Team Name: Team Alpha-Omega
+#Team Name: Team Alpha-Omega
 
-Tech Stack: Python (Anaconda)
+###Tech Stack: Python (Anaconda)
 
 
 Abstract: Our project is a student friendly attention detection system which tracks the cognitive state of child towards the class based on the facial gestures. 
