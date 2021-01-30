@@ -49,7 +49,8 @@ model = Sequential([
 #output a softmax to squash the matrix into output probabilities
     Dense(2, activation='softmax')
 ])
-
+GR=55
+RR=22
 model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
 
 model.fit_generator(train_batch, validation_data=valid_batch,epochs=15,steps_per_epoch=SPE ,validation_steps=VS)
